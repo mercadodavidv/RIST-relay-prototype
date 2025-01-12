@@ -1,0 +1,14 @@
+{
+  "name": "rist-stream-monitor",
+  "version": "1.0.0",
+  "description": "RIST stream relay for monitoring stream status and enabling automations like switching OBS scenes upon detecting low bitrate.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/app.js"
+  },
+  "author": "David Mercado",
+  "dependencies": {
+    "obs-websocket-js": "^5.0.6"
+  }
+}
