@@ -1,6 +1,5 @@
 import { spawn } from 'child_process';
 import { OBSWebSocket } from 'obs-websocket-js';
-// import ffmpeg from 'fluent-ffmpeg';
 
 // Configuration
 const inputStreamUrl = 'rist://@192.168.0.6:11000?cname=ristwan&bandwidth=3000';
